@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    color: black!;
+    overflow-x: hidden;
+}
+.navbar-center{
+    position: absolute;
+    left: 40%;
+    transform: translateX(50%);
+}
+header{
+    background-color: black;
+}
+ul li a {
+    color: white;
+    padding: 15px;
+}
+ul li a:hover{
+    font-size: 25px;
+    border-top: 3px;
+    border-left: 3px;
+    border-top-style: dashed;
+    border-left-style: dashed;
+    color: aliceblue;
+    border-color: azure;
+}
+.img-back{
+    background-image: url(../img/office.jpg);
+    height:650px;
+    width: 190px;
+    opacity: 1;
+    
+    
+    
+}
+.img-back h1{
+    position: absolute;
+    left: 190px;
+    bottom: 300px;
+    color: white;
+    font-size: 90px;
+    font-weight: 250px;
+
+}
+.img-back h3{
+    position: absolute;
+    left: 160px;
+    bottom: 250px;
+    color: rgb(134, 131, 131);
+    font-size: 40px;
+    
+    
+}
+.col-6 img{
+    position: absolute;
+    right: 210px;
+    bottom: 46px;
+
+}
+h2{
+    font-size: 35px;
+}
+ footer h4{
+    color: rgb(105, 106, 109);
+}
+button{
+    color: white;
+    padding: 10px;
+    background-color: rgb(68, 70, 70);
+}
+.container p{
+    font-size: 20px;
+    font-weight: 15;
+}
+
+.card-deck .card{
+    margin-top: -100px; 
+}
+.all-deck{
+    padding-bottom: 100px; 
+
+
+}
+.card{border-radius: 0% !important;}
+.card-title{
+    font-weight: 900;
+}
